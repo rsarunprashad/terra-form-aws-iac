@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tf_arun_aws_s3_bucket" {
-  bucket = "my-tf-test-bucket"
+  bucket_prefix = "rsarun"
 }
 
 
